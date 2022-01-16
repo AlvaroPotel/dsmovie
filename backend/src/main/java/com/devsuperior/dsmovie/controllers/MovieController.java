@@ -27,4 +27,5 @@ public class MovieController {
 	public MovieDTO findeById(@PathVariable Long id){
 		return service.findById(id);
 	}
+	
 }
